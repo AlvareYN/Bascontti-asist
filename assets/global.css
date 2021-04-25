@@ -1,16 +1,16 @@
 @font-face {
 	font-family: infraSemiBold;
-	src: url('/fonts/infraSemiBold.otf');
+	src: url('/fonts/infrasemibold.otf');
 }
 
 @font-face {
 	font-family: infraLight;
-	src: url('/fonts/infraLight.otf');
+	src: url('/fonts/infralight.otf');
 }
 
 @font-face {
 	font-family: infraRegular;
-	src: url('/fonts/infraRegular.otf');
+	src: url('/fonts/infraregular.otf');
 }
 
 html, body {

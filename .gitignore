@@ -8,3 +8,5 @@ src/tmp/
 assets/build
 .vercel
 firebase_credentials.json
+firebase.json
+.firebaserc

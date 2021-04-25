@@ -28,6 +28,7 @@
     "@babel/core": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
     "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@roxi/routify": "^2.5.1-next-major",
     "@testing-library/svelte": "^3.0.3",
