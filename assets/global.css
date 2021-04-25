@@ -1,0 +1,212 @@
+@font-face {
+	font-family: infraSemiBold;
+	src: url('/fonts/infraSemiBold.otf');
+}
+
+@font-face {
+	font-family: infraLight;
+	src: url('/fonts/infraLight.otf');
+}
+
+@font-face {
+	font-family: infraRegular;
+	src: url('/fonts/infraRegular.otf');
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	/*-ms-overflow-style: none;*/
+	/* IE and Edge */
+	/*scrollbar-width: none;*/
+	font-family: infraRegular!important;
+	/*overflow: hidden;*/
+	background-color: #f5f5fb;
+}
+
+.container-bascontti {
+	margin-top: 72px;
+	margin-left: 72px;
+	margin-right: 72px;
+	margin-bottom: 72px;
+	/*overflow: hidden;*/
+	z-index: -2;
+}
+
+p {
+	color: #353E6C!important;
+}
+
+.bold {
+	font-family: infraSemiBold!important;
+}
+
+.titulo {
+	font-size: 24px;
+	color: #353E6C;
+}
+
+.light-text {
+	font-family: infraLight;
+}
+
+.texto-menu {
+	font-family: infraSemiBold;
+	color: #353E6C!important;
+}
+
+/*
+::-webkit-scrollbar {
+	display: none;
+}*/
+
+input[type="number"] {
+	height: 32px;
+	border-radius: 100px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type="number"].green {
+	border: 1px solid #AFB252;
+}
+
+input[type="number"].blue {
+	border: 1px solid #BACCFD;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+	display: none!important;
+}
+
+:root {
+	font-size: 16px;
+	--blue-light: #BACCFD;
+	--blue-bright: #5E81F4;
+	--no-active-text: #8DA1B5;
+	--red-alert: #F44771;
+	--black-text: #353E6C;
+	--bascontti-color: #AFB252;
+	--background: #f5f5fb;
+	background-color: #f5f5fb;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+#routify-app {
+	height: 100%;
+	width: 100%;
+}
+
+.cursor-change {
+	cursor: pointer;
+}
+
+button.date-item {
+	font-family: infraRegular!important;
+	font-size: 15px!important;
+	color: #353E6C!important;
+}
+
+/*Agregando custom styles a el calendar de bulma-calendar*/
+
+div.datepicker-nav {
+	background: white!important;
+	color: #353E6C!important;
+	margin-bottom: 20px;
+}
+
+.datepicker-nav-month, .datepicker-nav-year {
+	font-family: infraSemiBold!important;
+	color: #353E6C!important;
+	font-size: 24px!important;
+}
+
+.datepicker-nav-previous, .datepicker-nav-next {
+	color: #AFB252!important;
+}
+
+.datepicker-date {
+	font-family: infraSemiBold!important;
+	font-size: 16px!important;
+	color: #5E81F4!important;
+}
+
+.datetimepicker {
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+	border: 0!important;
+}
+
+.datepicker-range {
+	background: #F2F3CB!important;
+}
+
+.datetimepicker.is-info .datepicker-body .datepicker-dates .datepicker-days .datepicker-date.datepicker-range .date-item {
+	background: #F2F3CB!important;
+}
+
+.datetimepicker.is-info .datepicker-body .datepicker-dates .datepicker-days .datepicker-date .date-item.is-active {
+	background: #AFB252!important;
+}
+
+.datetimepicker.is-info .datepicker-body .datepicker-dates .datepicker-days .datepicker-date.datepicker-range.datepicker-range-end .date-item, .datetimepicker.is-info .datepicker-body .datepicker-dates .datepicker-days .datepicker-date.datepicker-range.datepicker-range-start .date-item {
+	border: 0;
+}
+
+.datetimepicker.is-info .datepicker-body .datepicker-dates .datepicker-days .datepicker-date.datepicker-range.datepicker-range-end .date-item, .datetimepicker.is-info .datepicker-body .datepicker-dates .datepicker-days .datepicker-date.datepicker-range.datepicker-range-start .date-item {
+	background: #AFB252!important;
+}
+
+.datetimepicker .datepicker-body .datepicker-dates .datepicker-days .datepicker-date {
+	margin: 8px 0!important;
+}
+
+[class="datepicker-date"] {
+	visibility: hidden!important;
+}
+
+.datepicker-weekdays>div {
+	visibility: visible!important;
+}
+
+.datetimepicker.is-info .datepicker-body .datepicker-dates .datepicker-days .datepicker-date.datepicker-range .date-item.is-today {
+	color: #353E6C!important;
+}
+
+/*fin de agregando custom styles*/
+
+/*
+cambiando forma del select de bulma
+*/
+
+.boton-bascontti {
+	border-radius: 100px;
+	border: 0;
+	font-family: infraRegular;
+	font-size: 15px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.boton-bascontti:hover {
+	opacity: 0.5;
+}
+
+button {
+	outline: none!important;
+	z-index: 1;
+}
+
+.es-azul {
+	background-color: var(--blue-bright);
+	color: white;
+}
+
+body, button, input, optgroup, select, textarea {
+	font-family: infraRegular!important;
+}
