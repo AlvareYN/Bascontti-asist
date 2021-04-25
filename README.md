@@ -8,6 +8,6 @@
     touch src/firebase_credentials.json #add your firebase web credentials
     npm run dev
 ~~~
-
+https://bascontti-demo-site.web.app/
 demo project for bascontti asist, not fully functional.
 
