@@ -10,6 +10,8 @@
 
 https://bascontti-demo-site.web.app/
 demo user:
-email:alvaro@gmail.com
-pass:holamundo
+    email:alvaro@gmail.com
+    pass:holamundo
 demo project for bascontti asist, not fully functional.
+
+designed by: Silvana Alvarado.
